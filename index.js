@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const courses = require('./data/courses.json');
-console.log(courses)
+console.log('courses added')
 
 app.use(cors())
 
