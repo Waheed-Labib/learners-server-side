@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.send('learners API running')
 })
 
-
+console.log('check')
 
 app.listen(port, () => {
     console.log('learners server running on port', port)
