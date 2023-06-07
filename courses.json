@@ -9,17 +9,33 @@
         "teachers": [
             "Elon Musk",
             "Bill Gates"
+        ],
+        "enrolled": 1203,
+        "short-description": "Master fundamental AI concepts and develop practical machine learning skills in the beginner-friendly, 20 credits program by AI visionary Elon Musk and Bill Gates",
+        "features": [
+            "Build ML models with NumPy & scikit-learn, build & train supervised models for prediction & binary classification tasks (linear, logistic regression)",
+            "Build & train a neural network with TensorFlow to perform multi-class classification, & build & use decision trees & tree ensemble methods",
+            "Apply best practices for ML development & use unsupervised learning techniques for unsupervised learning including clustering & anomaly detection",
+            "Build recommender systems with a collaborative filtering approach & a content-based deep learning method & build a deep reinforcement learning model"
         ]
     },
     {
         "id": 2,
-        "course_name": "Web Development",
+        "course_name": "Front-End Web Development",
         "image": "https://wallpaperaccess.com/full/1947431.jpg",
         "rating": 4.4,
         "credits": 20,
         "price": 5500,
         "teachers": [
             "Rabindranath Tagore"
+        ],
+        "enrolled": 1306,
+        "short-description": "Launch your career as a front-end developer. Build job-ready skills for an in-demand career and earn a credential from learners. No degree or prior experience required to get started.",
+        "features": [
+            "Create a responsive website using HTML to structure content, CSS to handle visual style, and JavaScript to develop interactive experiences. ",
+            "Learn to use React in relation to Javascript libraries and frameworks.",
+            "Learn Bootstrap CSS Framework to create webpages and work with GitHub repositories and version control.",
+            "Prepare for a coding interview, learn best approaches to problem-solving, and build portfolio-ready projects you can share during job interviews."
         ]
     },
     {
@@ -32,6 +48,14 @@
         "teachers": [
             "Albert Einstein",
             "Isaac Newton"
+        ],
+        "enrolled": 1065,
+        "short-description": "Master Algorithmic Programming Techniques. Advance your Software Engineering or Data Science Career by Learning Algorithms through Programming and Puzzle Solving. Ace coding interviews by implementing each algorithmic challenge in this Specialization. Apply the newly-learned algorithmic techniques to real-life problems, such as analyzing a huge social network or sequencing a genome of a deadly pathogen.",
+        "features": [
+            "Play with 50 algorithmic puzzles on your smartphone to develop your algorithmic intuition!  Apply algorithmic techniques (greedy algorithms, binary search, dynamic programming, etc.) and data structures (stacks, queues, trees, graphs, etc.) to solve 100 programming challenges that often appear at interviews at high-tech companies. Get an instant feedback on whether your solution is correct.",
+            "Apply the newly learned algorithms to solve real-world challenges: navigating in a Big Network  or assembling a genome of a deadly pathogen from millions of short substrings of its DNA.",
+            "Learn exactly the same material as undergraduate students in “Algorithms 101” at top universities and more! We are excited that students from various parts of the world are now studying our online materials in the Algorithms 101 classes at their universities.",
+            "If you decide to venture beyond Algorithms 101, try to solve more complex programming challenges (flows in networks, linear programming, streaming algorithms, etc.) and complete an equivalent of a graduate course in algorithms!"
         ]
     },
     {
@@ -45,6 +69,14 @@
             "Sakib Khan",
             "Ananta Jalil",
             "Hero Alam"
+        ],
+        "enrolled": 1756,
+        "short-description": "Kickstart your career in data science & ML. Build data science skills, learn Python & SQL, analyze & visualize data, build machine learning models. No degree or prior experience required.",
+        "features": [
+            "Describe what is data science, the various activities of a data scientist job, and methodology to think and work like a data scientist",
+            "Develop hands-on skills using the tools, languages, and libraries used by professional data scientists",
+            "Import and clean data sets, analyze and visualize data, and build and evaluate machine learning models and pipelines using Python",
+            "Apply various data science skills, techniques, and tools to complete a project using a real-world data set and publish a report for stakeholders"
         ]
     },
     {
@@ -57,6 +89,14 @@
         "teachers": [
             "Garcia Marquez",
             "Franz Kafka"
+        ],
+        "enrolled": 982,
+        "short-description": "This course provides an introduction to programming frameworks and their implementation issues in the Cloud. It explains multiple topics, including: scalable distributed data stores, resource management (for supporting multi-tenancy and elasticity) and virtualization techniques. Optionally, the student will also be guided in the implementation of a basic version of the distributed runtime system for the Map-Reduce programming framework",
+        "features": [
+            "An introduction to programming frameworks and their implementation issues in the Cloud.",
+            "Explains multiple topics, including: scalable distributed data stores, resource management (for supporting multi-tenancy and elasticity) and virtualization techniques.",
+            "Guidance over the implementation of a basic version of the distributed runtime system for the Map-Reduce programming framework",
+            "Preparations for interviews"
         ]
     },
     {
@@ -69,6 +109,14 @@
         "teachers": [
             "Akram Khan",
             "Tatenda Taibu"
+        ],
+        "enrolled": 1478,
+        "short-description": "Become an SEO Expert. Master search engine optimization tools and strategies",
+        "features": [
+            "Complete a competitive analysis on a webpage",
+            "Develop a solid approach for achieving a productive and successful relationship with your client",
+            "Create influencer relationships and collaborations and analyze data to see which content gets the most shares",
+            "Create a final report of your findings and recommendations for SEO and present your recommendations to your client"
         ]
     }
 ]
