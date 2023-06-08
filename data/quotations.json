@@ -1,0 +1,14 @@
+[
+    {
+        "student_name": "Christina",
+        "location": "Poland",
+        "image": "https://agrades4u.com/wp-content/uploads/2020/05/college-girl-2.jpg",
+        "quote": "Even more important than knowledge is confidence, which I have gained through my learning journey. No matter what you are looking to learn, or gain confidence in, Learners has something for you."
+    },
+    {
+        "student_name": "Malcolm",
+        "location": "United States",
+        "image": "http://images.unsplash.com/photo-1522529599102-193c0d76b5b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8YmxhY2slMjBndXl8fDB8fHx8MTYyMjcxMjE1MA&ixlib=rb-1.2.1&q=80&w=1080",
+        "quote": "The program totally changed my life. I have this career in front of me now that wasn't even in sight before, and it's what I want to be doing. That's really powerful."
+    }
+]

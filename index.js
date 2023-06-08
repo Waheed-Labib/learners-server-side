@@ -4,8 +4,9 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 5000;
 
-const courses = require('./courses.json');
-const instructors = require('./teachers.json');
+const courses = require('./data/courses.json');
+const instructors = require('./data/teachers.json');
+const quotations = require('./data/quotations.json');
 
 app.use(cors())
 
@@ -31,6 +32,10 @@ app.get('/instructors/:id', (req, res) => {
     const id = req.params.id;
     const selectedInstructor = instructors.find(instructor => instructor.id == id)
     res.send(selectedInstructor)
+})
+
+app.get('/quotations', (req, res) => {
+    res.send(quotations);
 })
 
 app.listen(port, () => {

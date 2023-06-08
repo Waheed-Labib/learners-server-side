@@ -4,83 +4,95 @@
         "name": "Elon Musk",
         "image": "https://media.vanityfair.com/photos/609d51288fee0e2d204a86ea/master/w_2560%2Cc_limit/Elon5.13.jpg",
         "designation": "Assistant Professor",
-        "institute": "Yale University"
+        "institute": "Yale University",
+        "course": "Machine Learning"
     },
     {
         "id": 2,
         "name": "Bill Gates",
         "image": "http://rubenluengas.com/wp-content/uploads/2020/04/bill-gates-1024x577.png",
         "designation": "Associate Professor",
-        "institute": "University of Edinburgh"
+        "institute": "University of Edinburgh",
+        "course": "Machine Learning"
     },
     {
         "id": 3,
         "name": "Rabindranath Tagore",
         "image": "https://i0.wp.com/www.ajobrahasya.com/wp-content/uploads/2019/04/Rabindranath_Tagore_in_1909.jpg?resize=768%2C1076&ssl=1",
         "designation": "Assistant Professor",
-        "institute": "Visva-Bharati University"
+        "institute": "Visva-Bharati University",
+        "course": "Front-End Web Development"
     },
     {
         "id": 4,
         "name": "Albert Einstein",
         "image": "https://www.thenumber1.com//Files/aacddf51-7e33-498c-84f1-ef4e19f89bde.jpeg",
         "designation": "Lab Assistant",
-        "institute": "North South University"
+        "institute": "North South University",
+        "course": "Data Structure & Algorithm"
     },
     {
         "id": 5,
         "name": "Sakib Khan",
         "image": "https://i.ytimg.com/vi/EztweCtR3a8/maxresdefault.jpg",
         "designation": "Vice Chancellor",
-        "institute": "Bangladesh University of Engineering & Technology"
+        "institute": "Bangladesh University of Engineering & Technology",
+        "course": "Data Science"
     },
     {
         "id": 6,
         "name": "Isaac Newton",
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sir_Isaac_Newton_1702.jpg",
         "designation": "Registrar",
-        "institute": "East West University"
+        "institute": "East West University",
+        "course": "Data Structure & Algorithm"
     },
     {
         "id": 7,
         "name": "Ananta Jalil",
         "image": "https://images.newindianexpress.com/uploads/user/imagelibrary/2017/8/9/original/ananta_jalil.JPG",
         "designation": "Professor",
-        "institute": "Massachusetts Institute of Technology (MIT)"
+        "institute": "Massachusetts Institute of Technology (MIT)",
+        "course": "Data Science"
     },
     {
         "id": 8,
         "name": "Hero Alam",
         "image": "https://www.observerbd.com/2018/12/02/1543734087.jpg",
         "designation": "Dean",
-        "institute": "https://www.observerbd.com/2018/12/02/1543734087.jpg"
+        "institute": "https://www.observerbd.com/2018/12/02/1543734087.jpg",
+        "course": "Data Science"
     },
     {
         "id": 9,
         "name": "Garcia Marquez",
         "image": "https://buenavibra.es/wp-content/uploads/2017/11/Garc%C3%ADa-Marquez-1200.jpg",
         "designation": "Assistant Professor",
-        "institute": "University of Dhaka"
+        "institute": "University of Dhaka",
+        "course": "Cloud Computing"
     },
     {
         "id": 10,
         "name": "Franz Kafka",
         "image": "https://cdn.britannica.com/38/61238-050-F8B7824A/Franz-Kafka-1910.jpg",
         "designation": "Emeritus Professor",
-        "institute": "University of Metamorphosis"
+        "institute": "University of Metamorphosis",
+        "course": "Cloud Computing"
     },
     {
         "id": 11,
         "name": "Akram Khan",
         "image": "https://statics.sportskeeda.com/wp-content/uploads/2015/06/sp03-1435471723-800.jpg",
         "designation": "Lecturer",
-        "institute": "Daffodil University"
+        "institute": "Daffodil University",
+        "course": "Search Engine Optimization"
     },
     {
         "id": 12,
         "name": "Tatenda Taibu",
         "image": "https://www.cricketcountry.com/wp-content/uploads/2016/04/tatenda-taibu.jpg",
         "designation": "Assistant Professor",
-        "institute": "University of California"
+        "institute": "University of California",
+        "course": "Search Engine Optimization"
     }
 ]
