@@ -1,0 +1,47 @@
+[
+    {
+        "heading": "What is cors?",
+        "author": "Mr. Nobody",
+        "author_id": 1,
+        "author_image": "https://i0.wp.com/filmracket.com/wp-content/uploads/2013/10/mrnobody3.jpg?fit=1400%2C933&ssl=1",
+        "post_image": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/cors_principle.png",
+        "body": [
+            "Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. CORS also relies on a mechanism by which browsers make a 'preflight' request to the server hosting the cross-origin resource, in order to check that the server will permit the actual request. In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used in the actual request.",
+            "An example of a cross-origin request: the front-end JavaScript code served from https: //domain-a.com uses XMLHttpRequest to make a request for https://domain-b.com/data.json.",
+            "For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from unless the response from other origins includes the right CORS headers.",
+            "The CORS mechanism supports secure cross-origin requests and data transfers between browsers and servers. Modern browsers use CORS in APIs such as XMLHttpRequest or Fetch to mitigate the risks of cross-origin HTTP requests."
+        ]
+    },
+    {
+        "heading": "Why are you using firebase? What other options do you have to implement authentication?",
+        "author": "Joker",
+        "author_id": 2,
+        "author_image": "https://images2.fanpop.com/image/photos/8800000/Mr-J-the-joker-8825018-1803-1700.jpg",
+        "post_image": "https://cdn.slidesharecdn.com/ss_thumbnails/firebase-170406101830-thumbnail-4.jpg?cb=1491473986",
+        "body": [
+            "Firebase is an app development platform that helps you build and grow apps and games users love. Backed by Google and trusted by millions of businesses around the world. I am using firebase for authentication-related purpose, because it is secure and reliable. Also, it has a well-organized documentation, which helps me to carry-on easily despite being an engineer.",
+            "Of course, There are many other options to implement authentication. For example, Okta, Auth0, Microsoft Azure, Zluri, OneLogin, JumpCloud, Delinea, Ping Identity,  SailPoint Identity Platform, Duo Security"
+        ]
+    },
+    {
+        "heading": "How does the private route work?",
+        "author": "Mr. Nobody",
+        "author_id": 1,
+        "author_image": "https://i0.wp.com/filmracket.com/wp-content/uploads/2013/10/mrnobody3.jpg?fit=1400%2C933&ssl=1",
+        "post_image": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*u-9AwPmPx47SOUVQHphiFA.jpeg",
+        "body": [
+            "Private Routes vary based on the apps, For example, Dashboard, User Profile, App Settings, Home, etc. In simple words, these routes can be accessed only after login.",
+            "The private route component is similar to the public route, the only change is that redirect URL and authenticate condition. If the user is not authenticated he will be redirected to the login page and the user can only access the authenticated routes If he is authenticated (Logged in)."
+        ]
+    },
+    {
+        "heading": "What is Node? How does Node work?",
+        "author": "Joker",
+        "author_id": 2,
+        "author_image": "https://images2.fanpop.com/image/photos/8800000/Mr-J-the-joker-8825018-1803-1700.jpg",
+        "body": [
+            "Node.js is a JavaScript runtime used to create scalable server-side and networking applications via virtual private servers. It is built on event-driven, asynchronous architecture to help developers create various projects efficiently and easily.",
+            "Node.js accepts the request from the clients and sends the response, while working with the request node. js handles them with a single thread. To operate I/O operations or requests node.js use the concept of threads."
+        ]
+    }
+]
