@@ -56,9 +56,10 @@ app.get('/authors', (req, res) => {
 
 app.get('/authors/:id', (req, res) => {
     const id = req.params.id;
-    const selectedAuthor = authors.find(author => author.id === id);
+    const selectedAuthor = authors.find(author => author.id == id)
     res.send(selectedAuthor)
 })
+
 
 app.listen(port, () => {
     console.log('learners server running on port', port)
