@@ -43,6 +43,12 @@ app.get('/blogs', (req, res) => {
     res.send(blogs);
 })
 
+app.get('/blogs/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedPost = blogs.find(blog => blog.id == id);
+    res.send(selectedPost)
+})
+
 app.listen(port, () => {
     console.log('learners server running on port', port)
 })
