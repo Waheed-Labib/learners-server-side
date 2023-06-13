@@ -8,6 +8,7 @@ const courses = require('./data/courses.json');
 const instructors = require('./data/instructors.json');
 const quotations = require('./data/quotations.json');
 const blogs = require('./data/blogs.json');
+const authors = require('./data/authors.json')
 
 app.use(cors())
 
@@ -47,6 +48,16 @@ app.get('/blogs/:id', (req, res) => {
     const id = req.params.id;
     const selectedPost = blogs.find(blog => blog.id == id);
     res.send(selectedPost)
+})
+
+app.get('/authors', (req, res) => {
+    res.send(authors);
+})
+
+app.get('/authors/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedAuthor = authors.find(author => author.id === id);
+    res.send(selectedAuthor)
 })
 
 app.listen(port, () => {
